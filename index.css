@@ -139,7 +139,7 @@ figure img {
 
 /* tools */
 .tools {
-  margin-top: 10rem;
+  padding-top: 10rem;
   text-align: center;
   padding-inline-start: 10px;
 }
