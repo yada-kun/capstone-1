@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <!-- header section -->
+    <header
+      class="d-flex justify-content-between header align-items-center"
+      id="header"
+    >
+      <figure>
+        <img src="./images/logo.png" alt="logo" />
+      </figure>
+      <nav class="nav">
+        <ul class="d-none d-lg-flex">
+          <li><a href="#home" selected>Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experiences">Experiences</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="pos-f-t modals d-lg-none bg-primary containter-fluid">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <ul class="text-white d-flex w-100">
+              <li><a href="#home" class="px-1">Home</a></li>
+              <li><a href="#about" class="px-1">About</a></li>
+              <li><a href="#skills" class="px-1">Skills</a></li>
+              <li><a href="#experiences" class="px-1">Experiences</a></li>
+              <li><a href="#portfolio" class="px-1">Portfolio</a></li>
+              <li><a href="#contact" class="px-1">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-light">
+          <button
+            class="navbar-toggler bg-dark"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="py-5">
+      <!-- Hero sections -->
+      <section
+        class="d-flex flex-column flex-md-row banner justify-content-around align-items-center"
+        id="home"
+      >
+        <div
+          class="profile-content d-flex flex-column justify-content-center align-items-center align-items-md-start order-1"
+        >
+          <h3>Hello I'm</h3>
+          <h1>James Anuncio</h1>
+          <h2>&lt;Full Stack Developer/&gt;</h2>
+
+          <i class="fa fa-envelope py-1" aria-hidden="true">
+            <span class="pl-3">anunciojames14@gmail.com</span></i
+          >
+          <i class="fa fa-phone py-1" aria-hidden="true">
+            <span class="pl-3">+63956 641 5515</span></i
+          >
+          <i class="fa fa-map-marker py-1" aria-hidden="true">
+            <span class="pl-3">anunciojames14@gmail.com</span></i
+          >
+        </div>
+        <div
+          class="profile-image-bg order-md-1 d-flex justify-content-center rounded rounded-circle"
+        >
+          <img
+            src="./images/profile.PNG"
+            alt="profile"
+            class="rounded rounded-circle"
+          />
+        </div>
+      </section>
+
+      <!-- About Me  -->
+      <section
+        class="d-flex flex-wrap justify-content-around align-items-center about"
+        id="about"
+      >
+        <div class="about-image">
+          <img src="./images/about-me.png" alt="about" class="img-fluid" />
+        </div>
+        <div class="about-content d-flex flex-column">
+          <h2 class="py-2 text-center text-lg-left">About Me</h2>
+          <p class="py-3">
+            Hello, I’m a James, I am a new Full Stack Web-developer based in
+            Cebu Philipphines. I create websites that help connect business with
+            people. My passion is to help business grow while learning to become
+            better personal and professionally. Below are the skills I'm good
+            at, or download my CV below for more info:
+          </p>
+
+          <div class="d-flex flex-wrap">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>TAILWIND</p>
+            <p>REACT</p>
+            <p>NODE</p>
+            <p>EXPRESS</p>
+            <p>MUI</p>
+          </div>
+
+          <a
+            href="./images/JamesResume.pdf"
+            class="mx-auto mx-lg-0 text-center"
+            download
+            >Download Cv</a
+          >
+        </div>
+      </section>
+
+      <!-- what I do -->
+
+      <section class="skills" id="skills">
+        <h2 class="text-center my-5">What I do</h2>
+        <div class="skill-list d-flex flex-wrap justify-content-center">
+          <div class="skill-1">
+            <i class="fa fa-bullseye purple-color"></i>
+            <h2>UI Design</h2>
+            <p>
+              I am an aspiring Full Stack Developer that currently graduated in
+              Uplift Code Bootcamp. I have equipped myself with the skills that
+              can help business grow and connect to the world
+            </p>
+          </div>
+          <div class="skill-2">
+            <i class="fa fa-code iron-color"></i>
+            <h2>Web Development</h2>
+            <p>
+              I have been a Virtual Assitant for the past 4 years helping
+              clients scale their businesses and balance their time. So they can
+              have more time for their families
+            </p>
+          </div>
+          <div class="skill-3">
+            <i class="fa fa-object-ungroup sky-color"></i>
+            <h2>Data Entry Specialist</h2>
+            <p>
+              I have helped numerous clients manage their data over the years. I
+              have experience with a variety of data management tools and
+              techniques. I am highly skilled in data management and can help
+              clients maximize the value of their data.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experiences -->
+      <section
+        class="experience d-flex flex-wrap justify-content-center"
+        id="experiences"
+      >
+        <div class="education my-5">
+          <h2 class="pb-5">Education</h2>
+          <div class="education-info">
+            <h4>Information Technology <span>CIT - University </span></h4>
+            <h5>2008 - 2011</h5>
+
+            <p>Attainment: Graduate</p>
+            <p>Address: N Bacalso, Cebu City Philipphines</p>
+          </div>
+          <div class="education-info">
+            <h4>High School <span>DBTC - University </span></h4>
+            <h5>2004 - 2007</h5>
+
+            <p>Attainment: Graduate</p>
+            <p>Address: Punta Princessa, Cebu City Philipphines</p>
+          </div>
+          <div class="education-info">
+            <h4>Information Technology <span>CIT - University </span></h4>
+            <h5>2000 - 2004</h5>
+
+            <p>Attainment: Graduate</p>
+            <p>Address: Punta Princessa, Cebu City Philipphines</p>
+          </div>
+        </div>
+        <div class="experience my-5">
+          <h2 class="pb-5">Work Experience</h2>
+          <div class="education-info">
+            <h4>Data Entry Specialist <span>VYRL Co.</span></h4>
+            <p>Duties & responsibilities</p>
+
+            <ul>
+              <li>
+                Review and Categorize loads of Items in its correct category
+              </li>
+              <li>Reference all items through our masterlist of categories</li>
+            </ul>
+          </div>
+          <div class="education-info">
+            <h4>Executive Assistant<span>DH Financial</span></h4>
+            <p>Duties & responsibilities</p>
+
+            <ul>
+              <li>Created DH Financial Website in WordPress</li>
+              <li>
+                Data Entry and sorting email contacts through google sheets
+              </li>
+              <li>Manage daily calendar and any other Administrative Tasks</li>
+            </ul>
+          </div>
+
+          <div class="education-info">
+            <h4>Team Lead - Order Processor <span>EDROPSHIP EMPIRE </span></h4>
+            <p>Duties & responsibilities</p>
+
+            <ul>
+              <li>
+                Handling & Processing orders for the drops hipping business
+              </li>
+              <li>Enter orders through google sheets</li>
+              <li>Work with the developer team for software updates</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio -->
+
+      <section class="portfolio containter-fluid px-5" id="portfolio">
+        <h2>What I built</h2>
+        <div class="row justify-content-center align-items-center">
+          <div class="portfolio-content col-md-5 m-3">
+            <img
+              src="./images/projects/netflix.jpg"
+              alt="netflix"
+              class="img-fluid"
+            />
+            <div class="overlay">
+              <h3>Title</h3>
+              <a href="">Demo</a>
+            </div>
+          </div>
+
+          <div class="portfolio-content col-md-5 m-3">
+            <img
+              src="./images/projects/crypto.jpg"
+              alt="netflix"
+              class="img-fluid"
+            />
+            <div class="overlay">
+              <h3>Title</h3>
+              <a href="">Demo</a>
+            </div>
+          </div>
+          <div class="portfolio-content col-md-5 m-3">
+            <img
+              src="./images/projects/property.jpg"
+              alt="netflix"
+              class="img-fluid"
+            />
+            <div class="overlay">
+              <h3>Title</h3>
+              <a href="">Demo</a>
+            </div>
+          </div>
+          <div class="portfolio-content col-md-5 m-3">
+            <img
+              src="./images/projects/twitch.jpg"
+              alt="netflix"
+              class="img-fluid"
+            />
+            <div class="overlay">
+              <h3>Title</h3>
+              <a href="">Demo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+
+      <section class="contact container-fluid" id="contact">
+        <h2 class="text-center my-5">Contact Me!!</h2>
+        <div class="row justify-content-center align-items-center">
+          <div class="contact-content col-md-6">
+            <h3>Lets talk about everything!</h3>
+            <p>
+              I am excited to talk and meet you soon! Please let me know if you
+              need anything
+            </p>
+
+            <img src="./images/contact.svg" alt="" class="img-fluid" />
+          </div>
+          <div class="contact-form col-md-6">
+            <form class="d-flex flex-column align-items-center">
+              <input
+                type="text"
+                class="form-control"
+                name="fullname"
+                id="fullname"
+                placeholder="Full Name"
+              />
+              <input
+                type="email"
+                class="form-control"
+                name="fullname"
+                id="fullname"
+                placeholder="Email"
+              />
+              <input
+                type="text"
+                class="form-control"
+                name="fullname"
+                id="fullname"
+                placeholder="Subject"
+              />
+
+              <textarea
+                name="message"
+                id="message"
+                class="form-control"
+                cols="30"
+                rows="10"
+                placeholder="Enter your message"
+              ></textarea>
+
+              <button class="btn btn-primary rounded-0 py-2 px-4">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- arrow up -->
+
+      <!-- footer -->
+      <div class="arrow rounded-circle">
+        <a href="#header"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+      </div>
+
+      <footer>
+        <p class="text-center"></p>
+      </footer>
+    </main>
+  </body>
+</html>
