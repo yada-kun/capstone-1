@@ -126,9 +126,6 @@ figure img {
 }
 
 .about-content div p {
-  border: 1px solid #0bceaf;
-  padding: 10px;
-  border-radius: 10px;
 }
 
 .about-content a {
@@ -140,10 +137,30 @@ figure img {
   width: 150px;
 }
 
+/* tools */
+.tools {
+  margin-top: 10rem;
+  text-align: center;
+  padding-inline-start: 10px;
+}
+
+.tools div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.tools p {
+  border: 1px solid #0bceaf;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 /* skills */
 
 .skills {
-  margin-block: 15rem;
+  margin-block: 20rem;
 }
 
 .skills-list {
@@ -271,7 +288,7 @@ figure img {
 .contact {
   margin-top: 10rem;
   gap: 20px;
-  padding-inline: 10px;
+  padding-inline: 20px;
 }
 
 .contact-form form {
